@@ -1,0 +1,36 @@
+# Binaries and build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.venv
+venv/
+ENV/
+
+# Go
+*.test
+*.out
+
+# Node / JS
+node_modules/
+dist/
+build/
+.wrangler/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+target/
+Cargo.lock
+
+*.db
+*.db-wal
+*.db-shm

@@ -1,0 +1,11 @@
+[package]
+name = "rust-mcp-ipc-gateway"
+version = "0.1.0"
+edition = "2021"
+description = "Sanitized reference implementation of Fusio's native Rust IPC & MCP Gateway"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.38", features = ["sync", "macros", "rt-multi-thread"] }
+thiserror = "1.0"

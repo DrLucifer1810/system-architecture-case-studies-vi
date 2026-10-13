@@ -1,0 +1,40 @@
+[
+  {
+    "step_index": 1,
+    "action": "browser.navigate",
+    "args": {
+      "url": "https://example.com/portal/login"
+    }
+  },
+  {
+    "step_index": 2,
+    "action": "browser.type",
+    "args": {
+      "selector": "#username_input",
+      "text": "demo_user"
+    }
+  },
+  {
+    "step_index": 3,
+    "action": "browser.type",
+    "args": {
+      "selector": "#password_input",
+      "text": "secure_pass"
+    }
+  },
+  {
+    "step_index": 4,
+    "action": "browser.click",
+    "args": {
+      "selector": "button#submit_btn"
+    }
+  },
+  {
+    "step_index": 5,
+    "action": "browser.wait_for_selector",
+    "args": {
+      "selector": ".dashboard_loaded",
+      "timeout_ms": 8000
+    }
+  }
+]

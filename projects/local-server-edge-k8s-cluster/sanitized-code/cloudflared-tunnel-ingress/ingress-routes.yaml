@@ -1,0 +1,39 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: platform-edge-ingress
+  namespace: tadagram
+  annotations:
+    traefik.ingress.kubernetes.io/router.entrypoints: web
+spec:
+  rules:
+  - host: core.tadagram.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-core-api
+            port:
+              number: 3000
+  - host: business-chatbot.tadagram.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-business-chatbot
+            port:
+              number: 3000
+  - host: business-marketing.tadagram.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-business-marketing
+            port:
+              number: 3000
