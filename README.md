@@ -35,6 +35,7 @@ Mỗi dự án trong thư mục [`projects/`](./projects) đều được tổ c
 | [**SuperApp Fusio**](./projects/fusio-cognitive-desktop-superapp/) | **Node Nhận Thức Phi Tập Trung & Desktop SuperApp** | Rust (Tauri v2), Python 3.11, React 18, SQLite WAL, TDLib MTProto, LibP2P | [📖 Xem Hồ Sơ Kiến Trúc](./projects/fusio-cognitive-desktop-superapp/)<br>• [Mã nguồn mẫu Rust & Python](./projects/fusio-cognitive-desktop-superapp/sanitized-code/) |
 | [**Cụm Local Server**](./projects/local-server-edge-k8s-cluster/) | **Cụm Kubernetes Bare-Metal Biên & Micro-Datacenter** | K3d, K3s, Docker Registry, Cloudflare Tunnels, Dual-WAN 4G, LiFePO4 EPS | [📖 Xem Hồ Sơ Kiến Trúc](./projects/local-server-edge-k8s-cluster/)<br>• [Mã nguồn K8s YAML & Shell](./projects/local-server-edge-k8s-cluster/sanitized-code/) |
 | [**Hộ Chiếu MyDNA**](./projects/mydna-ai-coworker-passport/) | **Telemetry Tầng OS, Bộ Lọc PIR & Hộ Chiếu Kỹ Năng AI** | Rust (Tauri v2), Win32 API, Axum (MCP Server), SQLite WAL, Ma trận Dreyfus & Bloom | [📖 Xem Hồ Sơ Kiến Trúc](./projects/mydna-ai-coworker-passport/)<br>• [Mã nguồn mẫu Rust & Axum](./projects/mydna-ai-coworker-passport/sanitized-code/) |
+| [**Đấu Trường Giao Dịch F2F Arena**](./projects/f2f-trading-tournament-engine/) | **Động Cơ Giải Đấu & Trận Đấu Đối Kháng Giao Dịch Thời Gian Thực** | Python (FastAPI), Go, Redis Streams & PubSub, MySQL, Kubernetes, MT4/MT5 | [📖 Xem Hồ Sơ Kiến Trúc](./projects/f2f-trading-tournament-engine/)<br>• [Mã nguồn mẫu FastAPI & Go](./projects/f2f-trading-tournament-engine/sanitized-code/) |
 
 ---
 
@@ -92,6 +93,7 @@ system-architecture-case-studies-vi/
 │   │   └── sanitized-code/                   # Mã nguồn mẫu chạy thật (Shell, K8s YAML, Python)
 │   │
 │   └── mydna-ai-coworker-passport/           # Case Study 4: Hộ Chiếu Kỹ Năng & Telemetry MyDNA
+│   └── f2f-trading-tournament-engine/        # Case Study 5: Động Cơ Giải Đấu Giao Dịch Thời Gian Thực F2F Arena
 │       ├── README.md                         # Tổng quan kiến trúc & chỉ số vận hành
 │       ├── architecture/                     # 4 tài liệu đặc tả kiến trúc chuyên sâu
 │       ├── deep-dives/                       # 3 bài toán kỹ thuật hóc búa thực tế

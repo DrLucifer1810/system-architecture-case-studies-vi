@@ -49,9 +49,9 @@ Trong thời đại AI, việc thu thập dữ liệu hành vi tuyệt đối kh
 
 ---
 
-## 🏆 Thành Tựu Thực Chiến Qua 4 Dự Án Lớn
+## 🏆 Thành Tựu Thực Chiến Qua 5 Dự Án Lớn
 
-Repository này lưu trữ tài liệu kiến trúc và mã nguồn mẫu chuẩn hóa của 4 hệ thống do tôi trực tiếp thiết kế và triển khai:
+Repository này lưu trữ tài liệu kiến trúc và mã nguồn mẫu chuẩn hóa của 5 hệ thống do tôi trực tiếp thiết kế và triển khai:
 
 ```mermaid
 mindmap
@@ -76,6 +76,11 @@ mindmap
       Bộ Lọc PIR Che Giấu Bí Mật Bằng Regex
       Máy Chủ Nhúng Axum MCP Cổng 5050
       Ma Trận Năng Lực 6 Chiều Bloom và Dreyfus
+    Đấu Trường Giao Dịch F2F Arena
+      Lõi Kép FastAPI và Go
+      Phục Hồi Sự Kiện Redis Streams
+      Tự Động Tính Vòng APScheduler
+      Cầu Nối Bể Tài Khoản MetaTrader MT4 MT5
 ```
 
 ### 1. Nền Tảng Tự Động Hóa Phân Tán Biztada
